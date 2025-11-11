@@ -3,7 +3,7 @@
     <!-- Affichage du fond défini dans les drawables -->
     <drawable id="Smiley"/>
     <drawable id="MonRectangleDessin"/>
-    <!-- <drawable id="SapinNoel1" /> -->
+    <drawable id="SapinNoel1" />
 
     <!-- Affichage des champs label -->
     <label id="TitreLabel"

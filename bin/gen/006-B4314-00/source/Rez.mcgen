@@ -90,11 +90,16 @@ module Rez {
                 rez_cmp_local_custom_drawable_MonRectangleDessin.identifier = "MonRectangleDessin";
             }
 
+            var rez_cmp_local_custom_drawable_SapinNoel1 = new $.Rez.Drawables.SapinNoel1();
+            if (rez_cmp_local_custom_drawable_SapinNoel1.identifier == null) {
+                rez_cmp_local_custom_drawable_SapinNoel1.identifier = "SapinNoel1";
+            }
+
             var rez_cmp_local_text_TitreLabel = new WatchUi.Text({:identifier=>"TitreLabel", :backgroundColor=>Graphics.COLOR_BLACK, :color=>Graphics.COLOR_WHITE, :locX=>104, :locY=>150, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
 
             var rez_cmp_local_text_HourLabel = new WatchUi.Text({:identifier=>"HourLabel", :backgroundColor=>Graphics.COLOR_BLACK, :color=>Graphics.COLOR_WHITE, :locX=>104, :locY=>180, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
 
-            return [rez_cmp_local_custom_drawable_Smiley, rez_cmp_local_custom_drawable_MonRectangleDessin, rez_cmp_local_text_TitreLabel, rez_cmp_local_text_HourLabel] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_Smiley, rez_cmp_local_custom_drawable_MonRectangleDessin, rez_cmp_local_custom_drawable_SapinNoel1, rez_cmp_local_text_TitreLabel, rez_cmp_local_text_HourLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
