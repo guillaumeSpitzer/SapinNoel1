@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="1" lineNum="5" parent="globals/helloworld2App" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="2" lineNum="26" parent="globals" pc="268435479" symbol="getApp"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="2" lineNum="27" parent="globals" pc="268435489" symbol="getApp"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="4" lineNum="6" parent="globals/helloworld2View" pc="268435524" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="5" lineNum="12" parent="globals/helloworld2App" pc="268435543" symbol="onStart"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="6" lineNum="20" parent="globals/helloworld2App" pc="268435546" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="6" lineNum="21" parent="globals/helloworld2App" pc="268435548" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="7" lineNum="7" parent="globals/helloworld2App" pc="268435585" symbol="initialize"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="7" lineNum="8" parent="globals/helloworld2App" pc="268435587" symbol="initialize"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="8" lineNum="16" parent="globals/helloworld2App" pc="268435606" symbol="onStop"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="11" lineNum="13" parent="globals/helloworld2View" pc="268435609" symbol="onLayout"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="11" lineNum="14" parent="globals/helloworld2View" pc="268435611" symbol="onLayout"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="13" lineNum="8" parent="globals/helloworld2View" pc="268435653" symbol="initialize"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="13" lineNum="9" parent="globals/helloworld2View" pc="268435655" symbol="initialize"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="24" parent="globals/helloworld2View" pc="268435674" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="26" parent="globals/helloworld2View" pc="268435678" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="27" parent="globals/helloworld2View" pc="268435695" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="28" parent="globals/helloworld2View" pc="268435769" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="29" parent="globals/helloworld2View" pc="268435797" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="32" parent="globals/helloworld2View" pc="268435811" symbol="onUpdate"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="16" lineNum="13" parent="globals/Rez/Layouts" pc="268435836" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="16" lineNum="14" parent="globals/Rez/Layouts" pc="268435848" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="16" lineNum="16" parent="globals/Rez/Layouts" pc="268436001" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="6" object="true" symbol="helloworld2App"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="10" symbol="AppName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="9" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="7" object="true" symbol="helloworld2View"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="8" module="true" symbol="Layouts"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435652" name="dc" stackId="1" startPc="268435609"/>
+        <entry arg="true" endPc="268435835" name="dc" stackId="1" startPc="268435674"/>
+        <entry endPc="268435834" name="clockTime" stackId="2" startPc="268435678"/>
+        <entry endPc="268435834" name="timeString" stackId="3" startPc="268435678"/>
+        <entry endPc="268435834" name="view" stackId="4" startPc="268435678"/>
+        <entry arg="true" endPc="268436017" name="dc" stackId="1" startPc="268435836"/>
+        <entry endPc="268436017" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268435848"/>
+    </localVars>
+    <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B3282-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/helloworld2App" offset="134" parentId="globals" symbolId="helloworld2App" type="class"/>
+        <dataEntry label="globals/Rez" offset="205" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/helloworld2View" offset="260" parentId="globals" symbolId="helloworld2View" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="355" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="394" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="433" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="helloworld2App" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435504" name="getApp" startPc="268435479">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435523" name="&lt;init&gt;" parent="Rez" startPc="268435505">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435542" name="&lt;init&gt;" parent="helloworld2View" startPc="268435524">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435545" name="onStart" parent="helloworld2App" startPc="268435543">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435584" name="getInitialView" parent="helloworld2App" startPc="268435546">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435605" name="initialize" parent="helloworld2App" startPc="268435585">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435608" name="onStop" parent="helloworld2App" startPc="268435606">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="helloworld2View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="helloworld2View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435652" name="onLayout" parent="helloworld2View" startPc="268435609">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="helloworld2View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435673" name="initialize" parent="helloworld2View" startPc="268435653">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="helloworld2View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435835" name="onUpdate" parent="helloworld2View" startPc="268435674">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436017" name="WatchFace" parent="Layouts" startPc="268435836">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

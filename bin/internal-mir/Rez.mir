@@ -1,0 +1,687 @@
+[ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [ChristmasTree1,9,27,41]; @symbol_type<0> = [ResourceId,9,45,55]; ]
+        var ChristmasTree1 as ResourceId;
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,10,27,39]; @symbol_type<0> = [ResourceId,10,43,53]; ]
+        var LauncherIcon as ResourceId;
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 12; @symbol_classdef = [Smiley,12,14,20]; @symbol_extends<0> = [WatchUi,12,29,36]; @symbol_extends<1> = [Drawable,12,37,45]; ]
+        class Smiley extends WatchUi.Drawable {
+            [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 12; ]
+            <init> {
+            }
+            [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 12; ]
+            static
+            <init> {
+            }
+            [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 14; @symbol_functiondef = [initialize,14,21,31]; ]
+            function initialize() as Void {
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_14_34_16_12_start:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 15 16 ]
+                symbol [ Drawable %tmp.2 15 16 24 ];
+                %tmp.2 = getv ? :Drawable;
+                symbol [ initialize %tmp.3 15 25 35 ];
+                %tmp.3 = getv function %tmp.2 :initialize;
+                %tmp.4 = newd 0;
+                invoke %tmp.2 %tmp.3(%tmp.4);
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_14_34_16_12_stop:
+            }
+            [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 18; @symbol_functiondef = [draw,18,21,25]; @symbol_param<0> = [dc,18,26,28]; @symbol_param<0>_type<0> = [Graphics,18,32,40]; @symbol_param<0>_type<1> = [Dc,18,41,43]; ]
+            function draw(dc as Graphics.Dc) as Void {
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_18_53_35_12_start:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 19 16 ]
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_19_16_23_16_if_stmt:
+                %tmp.1 = self;
+                symbol [ self %tmp.1 19 20 24 ];
+                %tmp.3 = const :isVisible;
+                symbol [ isVisible %tmp.3 19 30 39 const ];
+                %tmp.4 = canhazplz %tmp.1 %tmp.3;
+                bf %tmp.4 @c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_19_16_23_16_if_end;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_19_16_23_16_if_true:
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_19_41_23_16_start:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 20 20 ]
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_20_20_22_20_if_stmt:
+                %tmp.5 = self;
+                symbol [ self %tmp.5 20 25 29 ];
+                symbol [ isVisible %tmp.6 20 30 39 ];
+                %tmp.6 = getv %tmp.5 :isVisible;
+                %tmp.7 = not %tmp.6;
+                bf %tmp.7 @c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_20_20_22_20_if_end;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_20_20_22_20_if_true:
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_20_41_22_20_start:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 21 24 ]
+                ret ?;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_20_41_22_20_stop:
+                goto @c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_20_20_22_20_if_end;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_20_20_22_20_if_end:
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_19_41_23_16_stop:
+                goto @c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_19_16_23_16_if_end;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_19_16_23_16_if_end:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 25 16 ]
+                %tmp.8 = lgetv %dc;
+                symbol [ dc %tmp.8 25 16 18 ];
+                symbol [ setColor %tmp.9 25 19 27 ];
+                %tmp.9 = getv function %tmp.8 :setColor;
+                symbol [ Gfx %tmp.10 25 28 31 ];
+                %tmp.10 = getm $.Toybox.Graphics;
+                symbol [ COLOR_YELLOW %tmp.11 25 32 44 ];
+                %tmp.11 = getv %tmp.10 :COLOR_YELLOW;
+                symbol [ Graphics %tmp.12 25 46 54 ];
+                %tmp.12 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.13 25 55 72 ];
+                %tmp.13 = getv %tmp.12 :COLOR_TRANSPARENT;
+                invoke %tmp.8 %tmp.9(%tmp.11, %tmp.13);
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 26 16 ]
+                %tmp.14 = lgetv %dc;
+                symbol [ dc %tmp.14 26 16 18 ];
+                symbol [ fillRectangle %tmp.15 26 19 32 ];
+                %tmp.15 = getv function %tmp.14 :fillRectangle;
+                %tmp.16 = 0;
+                %tmp.17 = 0;
+                %tmp.18 = add %tmp.16 %tmp.17;
+                %tmp.19 = 0;
+                %tmp.20 = 0;
+                %tmp.21 = add %tmp.19 %tmp.20;
+                %tmp.22 = lgetv %dc;
+                symbol [ dc %tmp.22 26 52 54 ];
+                symbol [ getWidth %tmp.23 26 55 63 ];
+                %tmp.23 = getv function %tmp.22 :getWidth;
+                %tmp.24 = invoke %tmp.22 %tmp.23();
+                %tmp.25 = 0;
+                %tmp.26 = sub %tmp.24 %tmp.25;
+                %tmp.27 = lgetv %dc;
+                symbol [ dc %tmp.27 26 73 75 ];
+                symbol [ getHeight %tmp.28 26 76 85 ];
+                %tmp.28 = getv function %tmp.27 :getHeight;
+                %tmp.29 = invoke %tmp.27 %tmp.28();
+                %tmp.30 = 0;
+                %tmp.31 = sub %tmp.29 %tmp.30;
+                invoke %tmp.14 %tmp.15(%tmp.18, %tmp.21, %tmp.26, %tmp.31);
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 27 16 ]
+                %tmp.32 = lgetv %dc;
+                symbol [ dc %tmp.32 27 16 18 ];
+                symbol [ setColor %tmp.33 27 19 27 ];
+                %tmp.33 = getv function %tmp.32 :setColor;
+                symbol [ Graphics %tmp.34 27 28 36 ];
+                %tmp.34 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.35 27 37 54 ];
+                %tmp.35 = getv %tmp.34 :COLOR_TRANSPARENT;
+                symbol [ Gfx %tmp.36 27 56 59 ];
+                %tmp.36 = getm $.Toybox.Graphics;
+                symbol [ COLOR_YELLOW %tmp.37 27 60 72 ];
+                %tmp.37 = getv %tmp.36 :COLOR_YELLOW;
+                invoke %tmp.32 %tmp.33(%tmp.35, %tmp.37);
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 29 16 ]
+                %tmp.38 = lgetv %dc;
+                symbol [ dc %tmp.38 29 16 18 ];
+                symbol [ setColor %tmp.39 29 19 27 ];
+                %tmp.39 = getv function %tmp.38 :setColor;
+                %tmp.40 = 0x00FF00;
+                symbol [ Graphics %tmp.41 29 38 46 ];
+                %tmp.41 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.42 29 47 64 ];
+                %tmp.42 = getv %tmp.41 :COLOR_TRANSPARENT;
+                invoke %tmp.38 %tmp.39(%tmp.40, %tmp.42);
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 30 16 ]
+                %tmp.43 = lgetv %dc;
+                symbol [ dc %tmp.43 30 16 18 ];
+                symbol [ fillRectangle %tmp.44 30 19 32 ];
+                %tmp.44 = getv function %tmp.43 :fillRectangle;
+                %tmp.45 = 0;
+                %tmp.46 = 0;
+                %tmp.47 = add %tmp.45 %tmp.46;
+                %tmp.48 = 10;
+                %tmp.49 = add %tmp.47 %tmp.48;
+                %tmp.50 = 0;
+                %tmp.51 = add %tmp.49 %tmp.50;
+                %tmp.52 = 0;
+                %tmp.53 = 0;
+                %tmp.54 = add %tmp.52 %tmp.53;
+                %tmp.55 = 10;
+                %tmp.56 = add %tmp.54 %tmp.55;
+                %tmp.57 = 0;
+                %tmp.58 = add %tmp.56 %tmp.57;
+                %tmp.59 = 100;
+                %tmp.60 = 2;
+                %tmp.61 = 0;
+                %tmp.62 = mul %tmp.60 %tmp.61;
+                %tmp.63 = sub %tmp.59 %tmp.62;
+                %tmp.64 = 100;
+                %tmp.65 = 2;
+                %tmp.66 = 0;
+                %tmp.67 = mul %tmp.65 %tmp.66;
+                %tmp.68 = sub %tmp.64 %tmp.67;
+                invoke %tmp.43 %tmp.44(%tmp.51, %tmp.58, %tmp.63, %tmp.68);
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 31 16 ]
+                %tmp.69 = lgetv %dc;
+                symbol [ dc %tmp.69 31 16 18 ];
+                symbol [ setColor %tmp.70 31 19 27 ];
+                %tmp.70 = getv function %tmp.69 :setColor;
+                symbol [ Gfx %tmp.71 31 28 31 ];
+                %tmp.71 = getm $.Toybox.Graphics;
+                symbol [ COLOR_RED %tmp.72 31 32 41 ];
+                %tmp.72 = getv %tmp.71 :COLOR_RED;
+                symbol [ Graphics %tmp.73 31 43 51 ];
+                %tmp.73 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.74 31 52 69 ];
+                %tmp.74 = getv %tmp.73 :COLOR_TRANSPARENT;
+                invoke %tmp.69 %tmp.70(%tmp.72, %tmp.74);
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 32 16 ]
+                %tmp.75 = lgetv %dc;
+                symbol [ dc %tmp.75 32 16 18 ];
+                symbol [ fillCircle %tmp.76 32 19 29 ];
+                %tmp.76 = getv function %tmp.75 :fillCircle;
+                %tmp.77 = 0;
+                %tmp.78 = 0;
+                %tmp.79 = add %tmp.77 %tmp.78;
+                %tmp.80 = 40;
+                %tmp.81 = add %tmp.79 %tmp.80;
+                %tmp.82 = 0;
+                %tmp.83 = 0;
+                %tmp.84 = add %tmp.82 %tmp.83;
+                %tmp.85 = 40;
+                %tmp.86 = add %tmp.84 %tmp.85;
+                %tmp.87 = 10;
+                %tmp.88 = 0;
+                %tmp.89 = sub %tmp.87 %tmp.88;
+                invoke %tmp.75 %tmp.76(%tmp.81, %tmp.86, %tmp.89);
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 33 16 ]
+                %tmp.90 = lgetv %dc;
+                symbol [ dc %tmp.90 33 16 18 ];
+                symbol [ setColor %tmp.91 33 19 27 ];
+                %tmp.91 = getv function %tmp.90 :setColor;
+                symbol [ Gfx %tmp.92 33 28 31 ];
+                %tmp.92 = getm $.Toybox.Graphics;
+                symbol [ COLOR_RED %tmp.93 33 32 41 ];
+                %tmp.93 = getv %tmp.92 :COLOR_RED;
+                symbol [ Graphics %tmp.94 33 43 51 ];
+                %tmp.94 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.95 33 52 69 ];
+                %tmp.95 = getv %tmp.94 :COLOR_TRANSPARENT;
+                invoke %tmp.90 %tmp.91(%tmp.93, %tmp.95);
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 34 16 ]
+                %tmp.96 = lgetv %dc;
+                symbol [ dc %tmp.96 34 16 18 ];
+                symbol [ fillCircle %tmp.97 34 19 29 ];
+                %tmp.97 = getv function %tmp.96 :fillCircle;
+                %tmp.98 = 0;
+                %tmp.99 = 0;
+                %tmp.100 = add %tmp.98 %tmp.99;
+                %tmp.101 = 130;
+                %tmp.102 = add %tmp.100 %tmp.101;
+                %tmp.103 = 0;
+                %tmp.104 = 0;
+                %tmp.105 = add %tmp.103 %tmp.104;
+                %tmp.106 = 40;
+                %tmp.107 = add %tmp.105 %tmp.106;
+                %tmp.108 = 10;
+                %tmp.109 = 0;
+                %tmp.110 = sub %tmp.108 %tmp.109;
+                invoke %tmp.96 %tmp.97(%tmp.102, %tmp.107, %tmp.110);
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_18_53_35_12_stop:
+            }
+        }
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 38; @symbol_classdef = [MonRectangleDessin,38,14,32]; @symbol_extends<0> = [WatchUi,38,41,48]; @symbol_extends<1> = [Drawable,38,49,57]; ]
+        class MonRectangleDessin extends WatchUi.Drawable {
+            [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 38; ]
+            <init> {
+            }
+            [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 38; ]
+            static
+            <init> {
+            }
+            [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 40; @symbol_functiondef = [initialize,40,21,31]; ]
+            function initialize() as Void {
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_40_34_42_12_start:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 41 16 ]
+                symbol [ Drawable %tmp.2 41 16 24 ];
+                %tmp.2 = getv ? :Drawable;
+                symbol [ initialize %tmp.3 41 25 35 ];
+                %tmp.3 = getv function %tmp.2 :initialize;
+                %tmp.4 = newd 0;
+                invoke %tmp.2 %tmp.3(%tmp.4);
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_40_34_42_12_stop:
+            }
+            [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 44; @symbol_functiondef = [draw,44,21,25]; @symbol_param<0> = [dc,44,26,28]; @symbol_param<0>_type<0> = [Graphics,44,32,40]; @symbol_param<0>_type<1> = [Dc,44,41,43]; ]
+            function draw(dc as Graphics.Dc) as Void {
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_44_53_54_12_start:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 45 16 ]
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_45_16_49_16_if_stmt:
+                %tmp.1 = self;
+                symbol [ self %tmp.1 45 20 24 ];
+                %tmp.3 = const :isVisible;
+                symbol [ isVisible %tmp.3 45 30 39 const ];
+                %tmp.4 = canhazplz %tmp.1 %tmp.3;
+                bf %tmp.4 @c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_45_16_49_16_if_end;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_45_16_49_16_if_true:
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_45_41_49_16_start:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 46 20 ]
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_46_20_48_20_if_stmt:
+                %tmp.5 = self;
+                symbol [ self %tmp.5 46 25 29 ];
+                symbol [ isVisible %tmp.6 46 30 39 ];
+                %tmp.6 = getv %tmp.5 :isVisible;
+                %tmp.7 = not %tmp.6;
+                bf %tmp.7 @c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_46_20_48_20_if_end;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_46_20_48_20_if_true:
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_46_41_48_20_start:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 47 24 ]
+                ret ?;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_46_41_48_20_stop:
+                goto @c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_46_20_48_20_if_end;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_46_20_48_20_if_end:
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_45_41_49_16_stop:
+                goto @c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_45_16_49_16_if_end;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_45_16_49_16_if_end:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 52 16 ]
+                %tmp.8 = lgetv %dc;
+                symbol [ dc %tmp.8 52 16 18 ];
+                symbol [ setColor %tmp.9 52 19 27 ];
+                %tmp.9 = getv function %tmp.8 :setColor;
+                %tmp.10 = 0x0000ff;
+                symbol [ Graphics %tmp.11 52 38 46 ];
+                %tmp.11 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.12 52 47 64 ];
+                %tmp.12 = getv %tmp.11 :COLOR_TRANSPARENT;
+                invoke %tmp.8 %tmp.9(%tmp.10, %tmp.12);
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 53 16 ]
+                %tmp.13 = lgetv %dc;
+                symbol [ dc %tmp.13 53 16 18 ];
+                symbol [ fillRectangle %tmp.14 53 19 32 ];
+                %tmp.14 = getv function %tmp.13 :fillRectangle;
+                %tmp.15 = 0;
+                %tmp.16 = 0;
+                %tmp.17 = add %tmp.15 %tmp.16;
+                %tmp.18 = 120;
+                %tmp.19 = add %tmp.17 %tmp.18;
+                %tmp.20 = 0;
+                %tmp.21 = add %tmp.19 %tmp.20;
+                %tmp.22 = 0;
+                %tmp.23 = 0;
+                %tmp.24 = add %tmp.22 %tmp.23;
+                %tmp.25 = 10;
+                %tmp.26 = add %tmp.24 %tmp.25;
+                %tmp.27 = 0;
+                %tmp.28 = add %tmp.26 %tmp.27;
+                %tmp.29 = 100;
+                %tmp.30 = 2;
+                %tmp.31 = 0;
+                %tmp.32 = mul %tmp.30 %tmp.31;
+                %tmp.33 = sub %tmp.29 %tmp.32;
+                %tmp.34 = 100;
+                %tmp.35 = 2;
+                %tmp.36 = 0;
+                %tmp.37 = mul %tmp.35 %tmp.36;
+                %tmp.38 = sub %tmp.34 %tmp.37;
+                invoke %tmp.13 %tmp.14(%tmp.21, %tmp.28, %tmp.33, %tmp.38);
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_44_53_54_12_stop:
+            }
+        }
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 57; @symbol_classdef = [SapinNoel1,57,14,24]; @symbol_extends<0> = [WatchUi,57,33,40]; @symbol_extends<1> = [Drawable,57,41,49]; ]
+        class SapinNoel1 extends WatchUi.Drawable {
+            [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 57; ]
+            <init> {
+            }
+            [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 57; ]
+            static
+            <init> {
+            }
+            [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 59; @position = 31; initialized = true; @symbol_vardef = [image_ChristmasTree1,59,31,51]; @symbol_type<0> = [WatchUi,59,55,62]; @symbol_type<1> = [BitmapResource,59,63,77]; ]
+            var image_ChristmasTree1 as WatchUi.BitmapResource;
+            [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 61; @symbol_functiondef = [initialize,61,21,31]; ]
+            function initialize() as Void {
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_61_34_64_12_start:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 62 16 ]
+                symbol [ Drawable %tmp.2 62 16 24 ];
+                %tmp.2 = getv ? :Drawable;
+                symbol [ initialize %tmp.3 62 25 35 ];
+                %tmp.3 = getv function %tmp.2 :initialize;
+                %tmp.4 = newd 0;
+                invoke %tmp.2 %tmp.3(%tmp.4);
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 63 16 ]
+                symbol [ WatchUi %tmp.5 63 40 47 ];
+                %tmp.5 = getm $.Toybox.WatchUi;
+                symbol [ loadResource %tmp.6 63 48 60 ];
+                %tmp.6 = getv function %tmp.5 :loadResource;
+                symbol [ $ %tmp.7 63 61 62 ];
+                %tmp.7 = getm $;
+                symbol [ Rez %tmp.8 63 63 66 ];
+                %tmp.8 = getv %tmp.7 :Rez;
+                symbol [ Drawables %tmp.9 63 67 76 ];
+                %tmp.9 = getv %tmp.8 :Drawables;
+                symbol [ ChristmasTree1 %tmp.10 63 77 91 ];
+                %tmp.10 = getv %tmp.9 :ChristmasTree1;
+                %tmp.11 = invoke %tmp.5 %tmp.6(%tmp.10);
+                %tmp.12 = as %tmp.11 WatchUi.BitmapResource;
+                symbol [ WatchUi %tmp.12 63 96 103 ];
+                symbol [ BitmapResource %tmp.12 63 104 118 ];
+                symbol [ image_ChristmasTree1 ? 63 16 36 ];
+                putv self :image_ChristmasTree1 %tmp.12;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_61_34_64_12_stop:
+            }
+            [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 66; @symbol_functiondef = [draw,66,21,25]; @symbol_param<0> = [dc,66,26,28]; @symbol_param<0>_type<0> = [Graphics,66,32,40]; @symbol_param<0>_type<1> = [Dc,66,41,43]; ]
+            function draw(dc as Graphics.Dc) as Void {
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_66_53_77_12_start:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 67 16 ]
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_67_16_71_16_if_stmt:
+                %tmp.1 = self;
+                symbol [ self %tmp.1 67 20 24 ];
+                %tmp.3 = const :isVisible;
+                symbol [ isVisible %tmp.3 67 30 39 const ];
+                %tmp.4 = canhazplz %tmp.1 %tmp.3;
+                bf %tmp.4 @c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_67_16_71_16_if_end;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_67_16_71_16_if_true:
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_67_41_71_16_start:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 68 20 ]
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_68_20_70_20_if_stmt:
+                %tmp.5 = self;
+                symbol [ self %tmp.5 68 25 29 ];
+                symbol [ isVisible %tmp.6 68 30 39 ];
+                %tmp.6 = getv %tmp.5 :isVisible;
+                %tmp.7 = not %tmp.6;
+                bf %tmp.7 @c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_68_20_70_20_if_end;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_68_20_70_20_if_true:
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_68_41_70_20_start:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 69 24 ]
+                ret ?;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_68_41_70_20_stop:
+                goto @c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_68_20_70_20_if_end;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_68_20_70_20_if_end:
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_67_41_71_16_stop:
+                goto @c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_67_16_71_16_if_end;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_67_16_71_16_if_end:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 73 16 ]
+                [ "c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_66_53_77_12_start" "c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_66_53_77_12_stop" ]
+                %rez_cmp_local_var_dc_getWidth.1 = local;
+                symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.1 73 20 49 ];
+                %tmp.8 = lgetv %dc;
+                symbol [ dc %tmp.8 73 52 54 ];
+                symbol [ getWidth %tmp.9 73 55 63 ];
+                %tmp.9 = getv function %tmp.8 :getWidth;
+                %tmp.10 = invoke %tmp.8 %tmp.9();
+                lputv %rez_cmp_local_var_dc_getWidth.1 %tmp.10;
+                symbol [ rez_cmp_local_var_dc_getWidth %rez_cmp_local_var_dc_getWidth.1 73 20 49 ];
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 76 16 ]
+                %tmp.11 = lgetv %dc;
+                symbol [ dc %tmp.11 76 16 18 ];
+                symbol [ drawBitmap %tmp.12 76 19 29 ];
+                %tmp.12 = getv function %tmp.11 :drawBitmap;
+                %tmp.13 = 0;
+                %tmp.14 = lgetv %rez_cmp_local_var_dc_getWidth.1;
+                symbol [ rez_cmp_local_var_dc_getWidth %tmp.14 76 37 66 ];
+                %tmp.15 = 2;
+                %tmp.16 = div %tmp.14 %tmp.15;
+                %tmp.17 = lgetv %rez_cmp_local_var_dc_getWidth.1;
+                symbol [ rez_cmp_local_var_dc_getWidth %tmp.17 76 75 104 ];
+                %tmp.18 = 2;
+                %tmp.19 = div %tmp.17 %tmp.18;
+                %tmp.20 = sub %tmp.16 %tmp.19;
+                %tmp.21 = add %tmp.13 %tmp.20;
+                %tmp.22 = 0;
+                %tmp.23 = 0;
+                %tmp.24 = add %tmp.22 %tmp.23;
+                symbol [ image_ChristmasTree1 %tmp.26 76 122 142 ];
+                %tmp.26 = getv ? :image_ChristmasTree1;
+                invoke %tmp.11 %tmp.12(%tmp.21, %tmp.24, %tmp.26);
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_66_53_77_12_stop:
+            }
+        }
+    }
+    [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 81; @symbol_moduledef = [Layouts,81,11,18]; ]
+    module Layouts {
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 81; ]
+        <init> {
+        }
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 82; @symbol_functiondef = [WatchFace,82,17,26]; @symbol_param<0> = [dc,82,27,29]; @symbol_param<0>_type<0> = [Graphics,82,33,41]; @symbol_param<0>_type<1> = [Dc,82,42,44]; @symbol_return<0> = [Array,82,49,54]; @symbol_return<1> = [WatchUi,82,55,62]; @symbol_return<2> = [Drawable,82,63,71]; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_82_73_98_8_start:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 83 12 ]
+            [ "c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_82_73_98_8_start" "c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_82_73_98_8_stop" ]
+            %rez_cmp_local_custom_drawable_Smiley.1 = local;
+            symbol [ rez_cmp_local_custom_drawable_Smiley %rez_cmp_local_custom_drawable_Smiley.1 83 16 52 ];
+            symbol [ $ %tmp.4 83 59 60 ];
+            %tmp.4 = getm $;
+            symbol [ Rez %tmp.5 83 61 64 ];
+            %tmp.5 = getv %tmp.4 :Rez;
+            symbol [ Drawables %tmp.6 83 65 74 ];
+            %tmp.6 = getv %tmp.5 :Drawables;
+            symbol [ Smiley %tmp.7 83 75 81 ];
+            %tmp.7 = getv function ? %tmp.6 :Smiley;
+            %tmp.1 = newc %tmp.7 ();
+            lputv %rez_cmp_local_custom_drawable_Smiley.1 %tmp.1;
+            symbol [ rez_cmp_local_custom_drawable_Smiley %rez_cmp_local_custom_drawable_Smiley.1 83 16 52 ];
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 84 12 ]
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_84_12_86_12_if_stmt:
+            %tmp.8 = lgetv %rez_cmp_local_custom_drawable_Smiley.1;
+            symbol [ rez_cmp_local_custom_drawable_Smiley %tmp.8 84 16 52 ];
+            symbol [ identifier %tmp.9 84 53 63 ];
+            %tmp.9 = getv %tmp.8 :identifier;
+            %tmp.10 = null;
+            %tmp.11 = eq %tmp.9 %tmp.10;
+            bf %tmp.11 @c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_84_12_86_12_if_end;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_84_12_86_12_if_true:
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_84_73_86_12_start:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 85 16 ]
+            %tmp.12 = lgetv %rez_cmp_local_custom_drawable_Smiley.1;
+            symbol [ rez_cmp_local_custom_drawable_Smiley %tmp.12 85 16 52 ];
+            %tmp.13 = "Smiley";
+            symbol [ identifier ? 85 53 63 ];
+            putv %tmp.12 :identifier %tmp.13;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_84_73_86_12_stop:
+            goto @c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_84_12_86_12_if_end;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_84_12_86_12_if_end:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 88 12 ]
+            [ "c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_82_73_98_8_start" "c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_82_73_98_8_stop" ]
+            %rez_cmp_local_custom_drawable_MonRectangleDessin.2 = local;
+            symbol [ rez_cmp_local_custom_drawable_MonRectangleDessin %rez_cmp_local_custom_drawable_MonRectangleDessin.2 88 16 64 ];
+            symbol [ $ %tmp.17 88 71 72 ];
+            %tmp.17 = getm $;
+            symbol [ Rez %tmp.18 88 73 76 ];
+            %tmp.18 = getv %tmp.17 :Rez;
+            symbol [ Drawables %tmp.19 88 77 86 ];
+            %tmp.19 = getv %tmp.18 :Drawables;
+            symbol [ MonRectangleDessin %tmp.20 88 87 105 ];
+            %tmp.20 = getv function ? %tmp.19 :MonRectangleDessin;
+            %tmp.14 = newc %tmp.20 ();
+            lputv %rez_cmp_local_custom_drawable_MonRectangleDessin.2 %tmp.14;
+            symbol [ rez_cmp_local_custom_drawable_MonRectangleDessin %rez_cmp_local_custom_drawable_MonRectangleDessin.2 88 16 64 ];
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 89 12 ]
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_89_12_91_12_if_stmt:
+            %tmp.21 = lgetv %rez_cmp_local_custom_drawable_MonRectangleDessin.2;
+            symbol [ rez_cmp_local_custom_drawable_MonRectangleDessin %tmp.21 89 16 64 ];
+            symbol [ identifier %tmp.22 89 65 75 ];
+            %tmp.22 = getv %tmp.21 :identifier;
+            %tmp.23 = null;
+            %tmp.24 = eq %tmp.22 %tmp.23;
+            bf %tmp.24 @c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_89_12_91_12_if_end;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_89_12_91_12_if_true:
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_89_85_91_12_start:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 90 16 ]
+            %tmp.25 = lgetv %rez_cmp_local_custom_drawable_MonRectangleDessin.2;
+            symbol [ rez_cmp_local_custom_drawable_MonRectangleDessin %tmp.25 90 16 64 ];
+            %tmp.26 = "MonRectangleDessin";
+            symbol [ identifier ? 90 65 75 ];
+            putv %tmp.25 :identifier %tmp.26;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_89_85_91_12_stop:
+            goto @c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_89_12_91_12_if_end;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_89_12_91_12_if_end:
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 93 12 ]
+            [ "c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_82_73_98_8_start" "c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_82_73_98_8_stop" ]
+            %rez_cmp_local_text_TitreLabel.3 = local;
+            symbol [ rez_cmp_local_text_TitreLabel %rez_cmp_local_text_TitreLabel.3 93 16 45 ];
+            symbol [ WatchUi %tmp.29 93 52 59 ];
+            %tmp.29 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.30 93 60 64 ];
+            %tmp.30 = getv function ? %tmp.29 :Text;
+            %tmp.31 = newd 7;
+            %tmp.33 = const :identifier;
+            symbol [ identifier %tmp.33 93 67 77 const ];
+            %tmp.34 = "TitreLabel";
+            %tmp.35 = dup %tmp.31;
+            %tmp.36 = aputv %tmp.35 %tmp.33 %tmp.34;
+            %tmp.38 = const :backgroundColor;
+            symbol [ backgroundColor %tmp.38 93 94 109 const ];
+            symbol [ Graphics %tmp.39 93 111 119 ];
+            %tmp.39 = getm $.Toybox.Graphics;
+            symbol [ COLOR_BLACK %tmp.40 93 120 131 ];
+            %tmp.40 = getv %tmp.39 :COLOR_BLACK;
+            %tmp.41 = dup %tmp.36;
+            %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
+            %tmp.44 = const :color;
+            symbol [ color %tmp.44 93 134 139 const ];
+            symbol [ Graphics %tmp.45 93 141 149 ];
+            %tmp.45 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.46 93 150 161 ];
+            %tmp.46 = getv %tmp.45 :COLOR_WHITE;
+            %tmp.47 = dup %tmp.42;
+            %tmp.48 = aputv %tmp.47 %tmp.44 %tmp.46;
+            %tmp.50 = const :locX;
+            symbol [ locX %tmp.50 93 164 168 const ];
+            %tmp.51 = 104;
+            %tmp.52 = dup %tmp.48;
+            %tmp.53 = aputv %tmp.52 %tmp.50 %tmp.51;
+            %tmp.55 = const :locY;
+            symbol [ locY %tmp.55 93 176 180 const ];
+            %tmp.56 = 150;
+            %tmp.57 = dup %tmp.53;
+            %tmp.58 = aputv %tmp.57 %tmp.55 %tmp.56;
+            %tmp.60 = const :justification;
+            symbol [ justification %tmp.60 93 188 201 const ];
+            symbol [ Graphics %tmp.61 93 203 211 ];
+            %tmp.61 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.62 93 212 231 ];
+            %tmp.62 = getv %tmp.61 :TEXT_JUSTIFY_CENTER;
+            %tmp.63 = dup %tmp.58;
+            %tmp.64 = aputv %tmp.63 %tmp.60 %tmp.62;
+            %tmp.66 = const :font;
+            symbol [ font %tmp.66 93 234 238 const ];
+            symbol [ Graphics %tmp.67 93 240 248 ];
+            %tmp.67 = getm $.Toybox.Graphics;
+            symbol [ FONT_XTINY %tmp.68 93 249 259 ];
+            %tmp.68 = getv %tmp.67 :FONT_XTINY;
+            %tmp.69 = dup %tmp.64;
+            %tmp.70 = aputv %tmp.69 %tmp.66 %tmp.68;
+            %tmp.27 = newc %tmp.30 (%tmp.70);
+            lputv %rez_cmp_local_text_TitreLabel.3 %tmp.27;
+            symbol [ rez_cmp_local_text_TitreLabel %rez_cmp_local_text_TitreLabel.3 93 16 45 ];
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 95 12 ]
+            [ "c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_82_73_98_8_start" "c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_82_73_98_8_stop" ]
+            %rez_cmp_local_text_HourLabel.4 = local;
+            symbol [ rez_cmp_local_text_HourLabel %rez_cmp_local_text_HourLabel.4 95 16 44 ];
+            symbol [ WatchUi %tmp.73 95 51 58 ];
+            %tmp.73 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.74 95 59 63 ];
+            %tmp.74 = getv function ? %tmp.73 :Text;
+            %tmp.75 = newd 7;
+            %tmp.77 = const :identifier;
+            symbol [ identifier %tmp.77 95 66 76 const ];
+            %tmp.78 = "HourLabel";
+            %tmp.79 = dup %tmp.75;
+            %tmp.80 = aputv %tmp.79 %tmp.77 %tmp.78;
+            %tmp.82 = const :backgroundColor;
+            symbol [ backgroundColor %tmp.82 95 92 107 const ];
+            symbol [ Graphics %tmp.83 95 109 117 ];
+            %tmp.83 = getm $.Toybox.Graphics;
+            symbol [ COLOR_BLACK %tmp.84 95 118 129 ];
+            %tmp.84 = getv %tmp.83 :COLOR_BLACK;
+            %tmp.85 = dup %tmp.80;
+            %tmp.86 = aputv %tmp.85 %tmp.82 %tmp.84;
+            %tmp.88 = const :color;
+            symbol [ color %tmp.88 95 132 137 const ];
+            symbol [ Graphics %tmp.89 95 139 147 ];
+            %tmp.89 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.90 95 148 159 ];
+            %tmp.90 = getv %tmp.89 :COLOR_WHITE;
+            %tmp.91 = dup %tmp.86;
+            %tmp.92 = aputv %tmp.91 %tmp.88 %tmp.90;
+            %tmp.94 = const :locX;
+            symbol [ locX %tmp.94 95 162 166 const ];
+            %tmp.95 = 104;
+            %tmp.96 = dup %tmp.92;
+            %tmp.97 = aputv %tmp.96 %tmp.94 %tmp.95;
+            %tmp.99 = const :locY;
+            symbol [ locY %tmp.99 95 174 178 const ];
+            %tmp.100 = 180;
+            %tmp.101 = dup %tmp.97;
+            %tmp.102 = aputv %tmp.101 %tmp.99 %tmp.100;
+            %tmp.104 = const :justification;
+            symbol [ justification %tmp.104 95 186 199 const ];
+            symbol [ Graphics %tmp.105 95 201 209 ];
+            %tmp.105 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.106 95 210 229 ];
+            %tmp.106 = getv %tmp.105 :TEXT_JUSTIFY_CENTER;
+            %tmp.107 = dup %tmp.102;
+            %tmp.108 = aputv %tmp.107 %tmp.104 %tmp.106;
+            %tmp.110 = const :font;
+            symbol [ font %tmp.110 95 232 236 const ];
+            symbol [ Graphics %tmp.111 95 238 246 ];
+            %tmp.111 = getm $.Toybox.Graphics;
+            symbol [ FONT_XTINY %tmp.112 95 247 257 ];
+            %tmp.112 = getv %tmp.111 :FONT_XTINY;
+            %tmp.113 = dup %tmp.108;
+            %tmp.114 = aputv %tmp.113 %tmp.110 %tmp.112;
+            %tmp.71 = newc %tmp.74 (%tmp.114);
+            lputv %rez_cmp_local_text_HourLabel.4 %tmp.71;
+            symbol [ rez_cmp_local_text_HourLabel %rez_cmp_local_text_HourLabel.4 95 16 44 ];
+[ "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen" 97 12 ]
+            %tmp.115 = newa 4 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.115 97 172 177 ];
+            symbol [ WatchUi %tmp.115 97 178 185 ];
+            symbol [ Drawable %tmp.115 97 186 194 ];
+            %tmp.116 = lgetv %rez_cmp_local_custom_drawable_Smiley.1;
+            symbol [ rez_cmp_local_custom_drawable_Smiley %tmp.116 97 20 56 ];
+            %tmp.117 = dup %tmp.115;
+            %tmp.118 = aputv %tmp.117 0 %tmp.116;
+            %tmp.119 = lgetv %rez_cmp_local_custom_drawable_MonRectangleDessin.2;
+            symbol [ rez_cmp_local_custom_drawable_MonRectangleDessin %tmp.119 97 58 106 ];
+            %tmp.120 = dup %tmp.118;
+            %tmp.121 = aputv %tmp.120 1 %tmp.119;
+            %tmp.122 = lgetv %rez_cmp_local_text_TitreLabel.3;
+            symbol [ rez_cmp_local_text_TitreLabel %tmp.122 97 108 137 ];
+            %tmp.123 = dup %tmp.121;
+            %tmp.124 = aputv %tmp.123 2 %tmp.122;
+            %tmp.125 = lgetv %rez_cmp_local_text_HourLabel.4;
+            symbol [ rez_cmp_local_text_HourLabel %tmp.125 97 139 167 ];
+            %tmp.126 = dup %tmp.124;
+            %tmp.127 = aputv %tmp.126 3 %tmp.125;
+            ret %tmp.127;
+c__Users_gspit_Documents_connect_iq_apps_SapinNoel1_bin_gen_006_B3282_00_source_Rez_mcgen_82_73_98_8_stop:
+        }
+    }
+    [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 101; @symbol_moduledef = [Strings,101,11,18]; ]
+    module Strings {
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 101; ]
+        <init> {
+        }
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 102; @position = 27; initialized = true; @symbol_vardef = [DeviceType,102,27,37]; @symbol_type<0> = [ResourceId,102,41,51]; ]
+        var DeviceType as ResourceId;
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 103; @position = 27; initialized = true; @symbol_vardef = [String3,103,27,34]; @symbol_type<0> = [ResourceId,103,38,48]; ]
+        var String3 as ResourceId;
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 104; @position = 27; initialized = true; @symbol_vardef = [String2,104,27,34]; @symbol_type<0> = [ResourceId,104,38,48]; ]
+        var String2 as ResourceId;
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 105; @position = 27; initialized = true; @symbol_vardef = [AppName,105,27,34]; @symbol_type<0> = [ResourceId,105,38,48]; ]
+        var AppName as ResourceId;
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 106; @position = 27; initialized = true; @symbol_vardef = [String1,106,27,34]; @symbol_type<0> = [ResourceId,106,38,48]; ]
+        var String1 as ResourceId;
+    }
+}
+[ @file = "c:\Users\gspit\Documents\connect_iq\apps\SapinNoel1\bin\gen\006-B3282-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

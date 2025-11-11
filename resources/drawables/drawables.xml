@@ -1,0 +1,36 @@
+<drawables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    
+    <bitmap id="LauncherIcon" filename="launcher_icon.svg" dithering="none" />
+    
+    <drawable-list id="Smiley" background="Gfx.COLOR_YELLOW">
+        <!-- <bitmap id="mouth" x="15" y="25" filename="../bitmaps/mouth.png" /> -->
+        <shape type="rectangle"
+            x="10"
+            y="10"
+            width="100"
+            height="100"
+            color="0x00FF00">
+        </shape>
+        <shape type="circle" x="40" y="40" radius="10" color="Gfx.COLOR_RED" />
+        <shape type="circle" x="130" y="40" radius="10" color="Gfx.COLOR_RED" />
+    </drawable-list>
+
+    <drawable-list id='MonRectangleDessin'>
+        <shape type="rectangle"
+            x="120"
+            y="10"
+            width="100"
+            height="100"
+            color="0x0000ff">
+        </shape>
+        x="0"
+        y="0" />
+    </drawable-list>
+
+    <drawable-list id='SapinNoel1' x="center" y="0" >
+        <!-- les bitmaps doivent être encapsulés dans un drawable-list -->
+        <!-- <bitmap id="ChristmasTree1" filename="Christmas_Tree_1.svg" dithering="none" /> -->
+        <bitmap id="ChristmasTree1" filename="SapinNoel2.png" dithering="none" />
+    </drawable-list>
+
+</drawables>

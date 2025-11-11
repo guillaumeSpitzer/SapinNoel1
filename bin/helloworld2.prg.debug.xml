@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="1" lineNum="5" parent="globals/helloworld2App" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="2" lineNum="26" parent="globals" pc="268435479" symbol="getApp"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="2" lineNum="27" parent="globals" pc="268435489" symbol="getApp"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="4" lineNum="9" parent="globals/helloworld2View" pc="268435524" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="5" lineNum="12" parent="globals/helloworld2App" pc="268435543" symbol="onStart"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="6" lineNum="20" parent="globals/helloworld2App" pc="268435546" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="6" lineNum="21" parent="globals/helloworld2App" pc="268435548" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="7" lineNum="7" parent="globals/helloworld2App" pc="268435585" symbol="initialize"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="7" lineNum="8" parent="globals/helloworld2App" pc="268435587" symbol="initialize"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2App.mc" id="8" lineNum="16" parent="globals/helloworld2App" pc="268435606" symbol="onStop"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="10" lineNum="31" parent="globals/helloworld2View" pc="268435609" symbol="onShow"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="10" lineNum="44" parent="globals/helloworld2View" pc="268435613" symbol="onShow"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="10" lineNum="45" parent="globals/helloworld2View" pc="268435641" symbol="onShow"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="10" lineNum="46" parent="globals/helloworld2View" pc="268435648" symbol="onShow"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="11" lineNum="24" parent="globals/helloworld2View" pc="268435672" symbol="onLayout"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="11" lineNum="25" parent="globals/helloworld2View" pc="268435674" symbol="onLayout"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="13" lineNum="15" parent="globals/helloworld2View" pc="268435716" symbol="initialize"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="13" lineNum="16" parent="globals/helloworld2View" pc="268435720" symbol="initialize"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="13" lineNum="17" parent="globals/helloworld2View" pc="268435738" symbol="initialize"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="13" lineNum="18" parent="globals/helloworld2View" pc="268435755" symbol="initialize"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="13" lineNum="19" parent="globals/helloworld2View" pc="268435771" symbol="initialize"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="13" lineNum="20" parent="globals/helloworld2View" pc="268435787" symbol="initialize"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="51" parent="globals/helloworld2View" pc="268435804" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="59" parent="globals/helloworld2View" pc="268435808" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="60" parent="globals/helloworld2View" pc="268435825" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="61" parent="globals/helloworld2View" pc="268435899" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="62" parent="globals/helloworld2View" pc="268435927" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="69" parent="globals/helloworld2View" pc="268435941" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="74" parent="globals/helloworld2View" pc="268435965" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="76" parent="globals/helloworld2View" pc="268435990" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="77" parent="globals/helloworld2View" pc="268436012" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="79" parent="globals/helloworld2View" pc="268436064" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="81" parent="globals/helloworld2View" pc="268436089" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="82" parent="globals/helloworld2View" pc="268436111" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="84" parent="globals/helloworld2View" pc="268436163" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="86" parent="globals/helloworld2View" pc="268436188" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="87" parent="globals/helloworld2View" pc="268436210" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="91" parent="globals/helloworld2View" pc="268436262" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\source\\helloworld2View.mc" id="15" lineNum="92" parent="globals/helloworld2View" pc="268436284" symbol="onUpdate"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="16" lineNum="57" parent="globals/Rez/Drawables/SapinNoel1" pc="268436334" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="17" lineNum="12" parent="globals/Rez/Drawables/Smiley" pc="268436353" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="18" lineNum="38" parent="globals/Rez/Drawables/MonRectangleDessin" pc="268436372" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="19" lineNum="82" parent="globals/Rez/Layouts" pc="268436391" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="19" lineNum="83" parent="globals/Rez/Layouts" pc="268436403" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="19" lineNum="84" parent="globals/Rez/Layouts" pc="268436443" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="19" lineNum="85" parent="globals/Rez/Layouts" pc="268436455" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="19" lineNum="88" parent="globals/Rez/Layouts" pc="268436471" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="19" lineNum="89" parent="globals/Rez/Layouts" pc="268436511" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="19" lineNum="90" parent="globals/Rez/Layouts" pc="268436523" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="19" lineNum="93" parent="globals/Rez/Layouts" pc="268436539" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="19" lineNum="94" parent="globals/Rez/Layouts" pc="268436579" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="19" lineNum="95" parent="globals/Rez/Layouts" pc="268436591" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="19" lineNum="98" parent="globals/Rez/Layouts" pc="268436607" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="19" lineNum="100" parent="globals/Rez/Layouts" pc="268436732" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="19" lineNum="102" parent="globals/Rez/Layouts" pc="268436857" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="20" lineNum="61" parent="globals/Rez/Drawables/SapinNoel1" pc="268436914" symbol="initialize"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="20" lineNum="62" parent="globals/Rez/Drawables/SapinNoel1" pc="268436916" symbol="initialize"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="20" lineNum="63" parent="globals/Rez/Drawables/SapinNoel1" pc="268436940" symbol="initialize"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="21" lineNum="66" parent="globals/Rez/Drawables/SapinNoel1" pc="268436988" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="21" lineNum="67" parent="globals/Rez/Drawables/SapinNoel1" pc="268436992" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="21" lineNum="68" parent="globals/Rez/Drawables/SapinNoel1" pc="268436997" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="21" lineNum="69" parent="globals/Rez/Drawables/SapinNoel1" pc="268437009" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="21" lineNum="73" parent="globals/Rez/Drawables/SapinNoel1" pc="268437016" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="21" lineNum="76" parent="globals/Rez/Drawables/SapinNoel1" pc="268437029" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="22" lineNum="14" parent="globals/Rez/Drawables/Smiley" pc="268437078" symbol="initialize"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="22" lineNum="15" parent="globals/Rez/Drawables/Smiley" pc="268437080" symbol="initialize"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="23" lineNum="18" parent="globals/Rez/Drawables/Smiley" pc="268437105" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="23" lineNum="19" parent="globals/Rez/Drawables/Smiley" pc="268437107" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="23" lineNum="20" parent="globals/Rez/Drawables/Smiley" pc="268437112" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="23" lineNum="21" parent="globals/Rez/Drawables/Smiley" pc="268437124" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="23" lineNum="25" parent="globals/Rez/Drawables/Smiley" pc="268437131" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="23" lineNum="26" parent="globals/Rez/Drawables/Smiley" pc="268437153" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="23" lineNum="27" parent="globals/Rez/Drawables/Smiley" pc="268437209" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="23" lineNum="29" parent="globals/Rez/Drawables/Smiley" pc="268437231" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="23" lineNum="30" parent="globals/Rez/Drawables/Smiley" pc="268437253" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="23" lineNum="31" parent="globals/Rez/Drawables/Smiley" pc="268437285" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="23" lineNum="32" parent="globals/Rez/Drawables/Smiley" pc="268437307" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="23" lineNum="33" parent="globals/Rez/Drawables/Smiley" pc="268437334" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="23" lineNum="34" parent="globals/Rez/Drawables/Smiley" pc="268437356" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="24" lineNum="40" parent="globals/Rez/Drawables/MonRectangleDessin" pc="268437384" symbol="initialize"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="24" lineNum="41" parent="globals/Rez/Drawables/MonRectangleDessin" pc="268437386" symbol="initialize"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="25" lineNum="44" parent="globals/Rez/Drawables/MonRectangleDessin" pc="268437411" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="25" lineNum="45" parent="globals/Rez/Drawables/MonRectangleDessin" pc="268437413" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="25" lineNum="46" parent="globals/Rez/Drawables/MonRectangleDessin" pc="268437418" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="25" lineNum="47" parent="globals/Rez/Drawables/MonRectangleDessin" pc="268437430" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="25" lineNum="52" parent="globals/Rez/Drawables/MonRectangleDessin" pc="268437437" symbol="draw"/>
+        <entry filename="c:\\Users\\gspit\\Documents\\connect_iq\\apps\\helloworld\\helloworld2\\bin\\gen\\006-B3282-00\\source\\Rez.mcgen" id="25" lineNum="53" parent="globals/Rez/Drawables/MonRectangleDessin" pc="268437459" symbol="draw"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="6" object="true" symbol="helloworld2App"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="17" symbol="AppName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry field="true" id="10" symbol="ecran_y"/>
+        <entry field="true" id="9" symbol="ecran_x"/>
+        <entry id="16" object="true" symbol="Smiley"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="8391300" method="true" symbol="isVisible"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="11" symbol="montre"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="22" symbol="image_ChristmasTree1"/>
+        <entry field="true" id="18" symbol="DeviceType"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="14" object="true" symbol="MonRectangleDessin"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="13" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="7" object="true" symbol="helloworld2View"/>
+        <entry field="true" id="21" symbol="String3"/>
+        <entry field="true" id="20" symbol="String2"/>
+        <entry field="true" id="19" symbol="String1"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="15" object="true" symbol="SapinNoel1"/>
+        <entry id="8" module="true" symbol="Layouts"/>
+        <entry field="true" id="8389743" symbol="backgroundColor"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry field="true" id="12" symbol="ChristmasTree1"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435670" name="view" stackId="1" startPc="268435613"/>
+        <entry arg="true" endPc="268435715" name="dc" stackId="1" startPc="268435672"/>
+        <entry endPc="268435802" name="settings" stackId="1" startPc="268435720"/>
+        <entry arg="true" endPc="268436333" name="dc" stackId="1" startPc="268435804"/>
+        <entry endPc="268436332" name="clockTime" stackId="2" startPc="268435808"/>
+        <entry endPc="268436332" name="timeString" stackId="3" startPc="268435808"/>
+        <entry endPc="268436332" name="view" stackId="4" startPc="268435808"/>
+        <entry arg="true" endPc="268436913" name="dc" stackId="1" startPc="268436391"/>
+        <entry endPc="268436913" name="rez_cmp_local_custom_drawable_Smiley" stackId="2" startPc="268436403"/>
+        <entry endPc="268436913" name="rez_cmp_local_custom_drawable_MonRectangleDessin" stackId="3" startPc="268436403"/>
+        <entry endPc="268436913" name="rez_cmp_local_custom_drawable_SapinNoel1" stackId="4" startPc="268436403"/>
+        <entry endPc="268436913" name="rez_cmp_local_text_TitreLabel" stackId="5" startPc="268436403"/>
+        <entry endPc="268436913" name="rez_cmp_local_text_HourLabel" stackId="6" startPc="268436403"/>
+        <entry arg="true" endPc="268437077" name="dc" stackId="1" startPc="268436988"/>
+        <entry endPc="268437076" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268436992"/>
+        <entry arg="true" endPc="268437383" name="dc" stackId="1" startPc="268437105"/>
+        <entry arg="true" endPc="268437491" name="dc" stackId="1" startPc="268437411"/>
+    </localVars>
+    <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B3282-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="SapinNoel1" module="globals/Rez/Drawables" symbol="image_ChristmasTree1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="String3"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="String2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DeviceType"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="String1"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="ChristmasTree1"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/helloworld2App" offset="134" parentId="globals" symbolId="helloworld2App" type="class"/>
+        <dataEntry label="globals/Rez" offset="205" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/helloworld2View" offset="260" parentId="globals" symbolId="helloworld2View" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="379" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="450" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="489" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Drawables/SapinNoel1" offset="560" parentId="Drawables" symbolId="SapinNoel1" type="class"/>
+        <dataEntry label="globals/Rez/Drawables/Smiley" offset="623" parentId="Drawables" symbolId="Smiley" type="class"/>
+        <dataEntry label="globals/Rez/Drawables/MonRectangleDessin" offset="678" parentId="Drawables" symbolId="MonRectangleDessin" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="helloworld2App" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435504" name="getApp" startPc="268435479">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435523" name="&lt;init&gt;" parent="Rez" startPc="268435505">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435542" name="&lt;init&gt;" parent="helloworld2View" startPc="268435524">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435545" name="onStart" parent="helloworld2App" startPc="268435543">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435584" name="getInitialView" parent="helloworld2App" startPc="268435546">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435605" name="initialize" parent="helloworld2App" startPc="268435585">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435608" name="onStop" parent="helloworld2App" startPc="268435606">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="helloworld2View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435671" name="onShow" parent="helloworld2View" startPc="268435609">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435715" name="onLayout" parent="helloworld2View" startPc="268435672">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="helloworld2View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435803" name="initialize" parent="helloworld2View" startPc="268435716">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="helloworld2View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436333" name="onUpdate" parent="helloworld2View" startPc="268435804">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436352" name="&lt;init&gt;" parent="SapinNoel1" startPc="268436334">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436371" name="&lt;init&gt;" parent="Smiley" startPc="268436353">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436390" name="&lt;init&gt;" parent="MonRectangleDessin" startPc="268436372">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436913" name="WatchFace" parent="Layouts" startPc="268436391">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436987" name="initialize" parent="SapinNoel1" startPc="268436914">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437077" name="draw" parent="SapinNoel1" startPc="268436988">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437104" name="initialize" parent="Smiley" startPc="268437078">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437383" name="draw" parent="Smiley" startPc="268437105">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437410" name="initialize" parent="MonRectangleDessin" startPc="268437384">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437491" name="draw" parent="MonRectangleDessin" startPc="268437411">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

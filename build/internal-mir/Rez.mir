@@ -1,0 +1,122 @@
+[ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,9,27,39]; @symbol_type<0> = [ResourceId,9,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 12; @symbol_moduledef = [Layouts,12,11,18]; ]
+    module Layouts {
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 13; @symbol_functiondef = [WatchFace,13,17,26]; @symbol_param<0> = [dc,13,27,29]; @symbol_param<0>_type<0> = [Graphics,13,33,41]; @symbol_param<0>_type<1> = [Dc,13,42,44]; @symbol_return<0> = [Array,13,49,54]; @symbol_return<1> = [WatchUi,13,55,62]; @symbol_return<2> = [Drawable,13,63,71]; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+c__Users_gspit_Documents_connect_iq_apps_helloworld_helloworld2_build_gen_006_B3282_00_source_Rez_mcgen_13_73_17_8_start:
+[ "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen" 14 12 ]
+            [ "c__Users_gspit_Documents_connect_iq_apps_helloworld_helloworld2_build_gen_006_B3282_00_source_Rez_mcgen_13_73_17_8_start" "c__Users_gspit_Documents_connect_iq_apps_helloworld_helloworld2_build_gen_006_B3282_00_source_Rez_mcgen_13_73_17_8_stop" ]
+            %rez_cmp_local_text_StringLabel.1 = local;
+            symbol [ rez_cmp_local_text_StringLabel %rez_cmp_local_text_StringLabel.1 14 16 46 ];
+            symbol [ WatchUi %tmp.3 14 53 60 ];
+            %tmp.3 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.4 14 61 65 ];
+            %tmp.4 = getv function ? %tmp.3 :Text;
+            %tmp.5 = newd 6;
+            %tmp.7 = const :identifier;
+            symbol [ identifier %tmp.7 14 68 78 const ];
+            %tmp.8 = "StringLabel";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.12 = const :color;
+            symbol [ color %tmp.12 14 96 101 const ];
+            symbol [ Graphics %tmp.13 14 103 111 ];
+            %tmp.13 = getm $.Toybox.Graphics;
+            symbol [ COLOR_WHITE %tmp.14 14 112 123 ];
+            %tmp.14 = getv %tmp.13 :COLOR_WHITE;
+            %tmp.15 = dup %tmp.10;
+            %tmp.16 = aputv %tmp.15 %tmp.12 %tmp.14;
+            %tmp.18 = const :locX;
+            symbol [ locX %tmp.18 14 126 130 const ];
+            %tmp.19 = lgetv %dc;
+            symbol [ dc %tmp.19 14 133 135 ];
+            symbol [ getWidth %tmp.20 14 136 144 ];
+            %tmp.20 = getv function %tmp.19 :getWidth;
+            %tmp.21 = invoke %tmp.19 %tmp.20();
+            %tmp.22 = 0.5;
+            %tmp.23 = mul %tmp.21 %tmp.22;
+            %tmp.24 = dup %tmp.16;
+            %tmp.25 = aputv %tmp.24 %tmp.18 %tmp.23;
+            %tmp.27 = const :locY;
+            symbol [ locY %tmp.27 14 156 160 const ];
+            symbol [ WatchUi %tmp.28 14 162 169 ];
+            %tmp.28 = getm $.Toybox.WatchUi;
+            symbol [ LAYOUT_VALIGN_TOP %tmp.29 14 170 187 ];
+            %tmp.29 = getv %tmp.28 :LAYOUT_VALIGN_TOP;
+            %tmp.30 = dup %tmp.25;
+            %tmp.31 = aputv %tmp.30 %tmp.27 %tmp.29;
+            %tmp.33 = const :justification;
+            symbol [ justification %tmp.33 14 190 203 const ];
+            symbol [ Graphics %tmp.34 14 205 213 ];
+            %tmp.34 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.35 14 214 233 ];
+            %tmp.35 = getv %tmp.34 :TEXT_JUSTIFY_CENTER;
+            %tmp.36 = dup %tmp.31;
+            %tmp.37 = aputv %tmp.36 %tmp.33 %tmp.35;
+            %tmp.39 = const :font;
+            symbol [ font %tmp.39 14 236 240 const ];
+            symbol [ Graphics %tmp.40 14 242 250 ];
+            %tmp.40 = getm $.Toybox.Graphics;
+            symbol [ FONT_XTINY %tmp.41 14 251 261 ];
+            %tmp.41 = getv %tmp.40 :FONT_XTINY;
+            %tmp.42 = dup %tmp.37;
+            %tmp.43 = aputv %tmp.42 %tmp.39 %tmp.41;
+            %tmp.1 = newc %tmp.4 (%tmp.43);
+            lputv %rez_cmp_local_text_StringLabel.1 %tmp.1;
+            symbol [ rez_cmp_local_text_StringLabel %rez_cmp_local_text_StringLabel.1 14 16 46 ];
+[ "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen" 16 12 ]
+            %tmp.44 = newa 1 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.44 16 55 60 ];
+            symbol [ WatchUi %tmp.44 16 61 68 ];
+            symbol [ Drawable %tmp.44 16 69 77 ];
+            %tmp.45 = lgetv %rez_cmp_local_text_StringLabel.1;
+            symbol [ rez_cmp_local_text_StringLabel %tmp.45 16 20 50 ];
+            %tmp.46 = dup %tmp.44;
+            %tmp.47 = aputv %tmp.46 0 %tmp.45;
+            ret %tmp.47;
+c__Users_gspit_Documents_connect_iq_apps_helloworld_helloworld2_build_gen_006_B3282_00_source_Rez_mcgen_13_73_17_8_stop:
+        }
+    }
+    [ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 20; @symbol_moduledef = [Strings,20,11,18]; ]
+    module Strings {
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 20; ]
+        <init> {
+        }
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 21; @position = 27; initialized = true; @symbol_vardef = [String3,21,27,34]; @symbol_type<0> = [ResourceId,21,38,48]; ]
+        var String3 as ResourceId;
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 22; @position = 27; initialized = true; @symbol_vardef = [String2,22,27,34]; @symbol_type<0> = [ResourceId,22,38,48]; ]
+        var String2 as ResourceId;
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 23; @position = 27; initialized = true; @symbol_vardef = [AppName,23,27,34]; @symbol_type<0> = [ResourceId,23,38,48]; ]
+        var AppName as ResourceId;
+        [ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 24; @position = 27; initialized = true; @symbol_vardef = [String1,24,27,34]; @symbol_type<0> = [ResourceId,24,38,48]; ]
+        var String1 as ResourceId;
+    }
+}
+[ @file = "c:\Users\gspit\Documents\connect_iq\apps\helloworld\helloworld2\build\gen\006-B3282-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

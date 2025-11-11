@@ -1,0 +1,21 @@
+<layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    
+    <!-- Affichage du fond défini dans les drawables -->
+    <drawable id="Smiley"/>
+    <drawable id="MonRectangleDessin"/>
+    <!-- <drawable id="SapinNoel1" /> -->
+
+    <!-- Affichage des champs label -->
+    <label id="TitreLabel"
+        x="104" y="150"
+        font="Graphics.FONT_XTINY"
+        justification="Graphics.TEXT_JUSTIFY_CENTER"
+        color="Graphics.COLOR_WHITE" background="Graphics.COLOR_BLACK" />
+
+    <label id="HourLabel"
+        x="104" y="180"
+        font="Graphics.FONT_XTINY"
+        justification="Graphics.TEXT_JUSTIFY_CENTER"
+        color="Graphics.COLOR_WHITE" background="Graphics.COLOR_BLACK" />
+       
+</layout>

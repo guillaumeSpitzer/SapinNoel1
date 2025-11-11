@@ -1,0 +1,108 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var ChristmasTree1 as ResourceId;
+        (:initialized) var LauncherIcon as ResourceId;
+
+        class Smiley extends WatchUi.Drawable {
+
+            function initialize() {
+                Drawable.initialize({});
+            }
+
+            function draw(dc as Graphics.Dc) as Void {
+                if (self has :isVisible) {
+                    if (!self.isVisible) {
+                        return;
+                    }
+                }
+
+                dc.setColor(Gfx.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
+                dc.fillRectangle((0 + 0), (0 + 0), (dc.getWidth() - 0), (dc.getHeight() - 0));
+                dc.setColor(Graphics.COLOR_TRANSPARENT, Gfx.COLOR_YELLOW);
+
+                dc.setColor(0x00FF00, Graphics.COLOR_TRANSPARENT);
+                dc.fillRectangle(((0 + 0) + 10) + 0, ((0 + 0) + 10) + 0, 100 - (2 * 0), 100 - (2 * 0));
+                dc.setColor(Gfx.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+                dc.fillCircle(((0 + 0) + 40), ((0 + 0) + 40), (10 - 0));
+                dc.setColor(Gfx.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+                dc.fillCircle(((0 + 0) + 130), ((0 + 0) + 40), (10 - 0));
+            }
+        }
+
+        class MonRectangleDessin extends WatchUi.Drawable {
+
+            function initialize() {
+                Drawable.initialize({});
+            }
+
+            function draw(dc as Graphics.Dc) as Void {
+                if (self has :isVisible) {
+                    if (!self.isVisible) {
+                        return;
+                    }
+                }
+
+
+                dc.setColor(0x0000ff, Graphics.COLOR_TRANSPARENT);
+                dc.fillRectangle(((0 + 0) + 120) + 0, ((0 + 0) + 10) + 0, 100 - (2 * 0), 100 - (2 * 0));
+            }
+        }
+
+        class SapinNoel1 extends WatchUi.Drawable {
+
+            (:initialized) var image_ChristmasTree1 as WatchUi.BitmapResource;
+
+            function initialize() {
+                Drawable.initialize({});
+                image_ChristmasTree1 = (WatchUi.loadResource($.Rez.Drawables.ChristmasTree1) as WatchUi.BitmapResource);
+            }
+
+            function draw(dc as Graphics.Dc) as Void {
+                if (self has :isVisible) {
+                    if (!self.isVisible) {
+                        return;
+                    }
+                }
+
+                var rez_cmp_local_var_dc_getWidth = dc.getWidth();
+
+
+                dc.drawBitmap((0 + ((rez_cmp_local_var_dc_getWidth / 2) - (rez_cmp_local_var_dc_getWidth / 2))), (0 + 0), image_ChristmasTree1);
+            }
+        }
+    } // Drawables
+
+    module Layouts {
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_custom_drawable_Smiley = new $.Rez.Drawables.Smiley();
+            if (rez_cmp_local_custom_drawable_Smiley.identifier == null) {
+                rez_cmp_local_custom_drawable_Smiley.identifier = "Smiley";
+            }
+
+            var rez_cmp_local_custom_drawable_MonRectangleDessin = new $.Rez.Drawables.MonRectangleDessin();
+            if (rez_cmp_local_custom_drawable_MonRectangleDessin.identifier == null) {
+                rez_cmp_local_custom_drawable_MonRectangleDessin.identifier = "MonRectangleDessin";
+            }
+
+            var rez_cmp_local_text_TitreLabel = new WatchUi.Text({:identifier=>"TitreLabel", :backgroundColor=>Graphics.COLOR_BLACK, :color=>Graphics.COLOR_WHITE, :locX=>104, :locY=>150, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
+
+            var rez_cmp_local_text_HourLabel = new WatchUi.Text({:identifier=>"HourLabel", :backgroundColor=>Graphics.COLOR_BLACK, :color=>Graphics.COLOR_WHITE, :locX=>104, :locY=>180, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
+
+            return [rez_cmp_local_custom_drawable_Smiley, rez_cmp_local_custom_drawable_MonRectangleDessin, rez_cmp_local_text_TitreLabel, rez_cmp_local_text_HourLabel] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Strings {
+        (:initialized) var DeviceType as ResourceId;
+        (:initialized) var String3 as ResourceId;
+        (:initialized) var String2 as ResourceId;
+        (:initialized) var AppName as ResourceId;
+        (:initialized) var String1 as ResourceId;
+    } // Strings
+} // Rez
